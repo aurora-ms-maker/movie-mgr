@@ -1,3 +1,4 @@
+/*
 const mongoose = require('mongoose');
 
 //给哪个数据库的
@@ -39,3 +40,14 @@ const connect = () => {
 };
 
 connect();
+*/
+
+const Koa = require('koa');
+
+const app = new Koa();
+
+app.listen(3000, () => {
+    console.log('启动成功');
+});
+
+console.log('112233');
